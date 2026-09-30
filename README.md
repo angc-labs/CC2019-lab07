@@ -34,10 +34,6 @@ void function(int n) {
 * **Bucle exterior ($i$):** Comienza en $\lfloor n/2 \rfloor$ y finaliza en $n$.  
   Número de iteraciones: $n_i = n - \lfloor n/2 \rfloor + 1 \approx \frac{n}{2}$.  
   Verificaciones de condición ($i \le n$): $n_i + 1$.
-* **Bucle interior ($k$):** La variable $k$ se duplica en cada iteración ($k = 1, 2, 4, 8, \dots \le n$).  
-  Número de iteraciones: $n_k = \lfloor \log_2 n \rfloor + 1 = \text{bit\_length}(n) \approx \log_2 n$.  
-  Verificaciones de condición ($k \le n$): $n_k + 1$.
-  Incremento `counter++`: $n_k$ veces.
 * **Fórmula cerrada exacta:**
   $$T_a(n) = 2 + (n_i + 1) + n_i(n_j + 1) + n_i \cdot n_j (2n_k + 1)$$
 * **Complejidad Asintótica:**
