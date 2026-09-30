@@ -34,9 +34,6 @@ void function(int n) {
 * **Bucle exterior ($i$):** Comienza en $\lfloor n/2 \rfloor$ y finaliza en $n$.  
   Número de iteraciones: $n_i = n - \lfloor n/2 \rfloor + 1 \approx \frac{n}{2}$.  
   Verificaciones de condición ($i \le n$): $n_i + 1$.
-* **Bucle intermedio ($j$):** La condición $j + n/2 \le n$ equivale a $j \le n - \lfloor n/2 \rfloor$.  
-  Número de iteraciones: $n_j = n - \lfloor n/2 \rfloor \approx \frac{n}{2}$.  
-  Verificaciones de condición por cada iteración de $i$: $n_j + 1$.
 * **Bucle interior ($k$):** La variable $k$ se duplica en cada iteración ($k = 1, 2, 4, 8, \dots \le n$).  
   Número de iteraciones: $n_k = \lfloor \log_2 n \rfloor + 1 = \text{bit\_length}(n) \approx \log_2 n$.  
   Verificaciones de condición ($k \le n$): $n_k + 1$.
