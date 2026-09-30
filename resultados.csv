@@ -1,0 +1,22 @@
+algoritmo,n,conteo_operaciones,tiempo_real_s,origen_tiempo,origen_conteo
+a,1,15,0.000000386,medido,instrumentado
+a,10,315,0.000003500,medido,instrumentado
+a,100,40905,0.000538388,medido,instrumentado
+a,1000,5512005,0.086477477,medido,instrumentado
+a,10000,750160005,12.557740698,medido,formula (verificada en n menores)
+a,100000,90001900005,1506.639270365,extrapolado,formula (verificada en n menores)
+a,1000000,10500022000005,175771.239096329,extrapolado,formula (verificada en n menores)
+b,1,2,0.000000037,medido,instrumentado
+b,10,44,0.000001182,medido,instrumentado
+b,100,404,0.000010433,medido,instrumentado
+b,1000,4004,0.000129434,medido,instrumentado
+b,10000,40004,0.001332706,medido,instrumentado
+b,100000,400004,0.013583158,medido,instrumentado
+b,1000000,4000004,0.124121703,medido,instrumentado
+c,1,3,0.000000103,medido,instrumentado
+c,10,27,0.000000798,medido,instrumentado
+c,100,1719,0.000039643,medido,instrumentado
+c,1000,167169,0.004017245,medido,instrumentado
+c,10000,16671669,0.445697352,medido,instrumentado
+c,100000,1666716669,44.661759210,medido,formula (verificada en n menores)
+c,1000000,166667166669,4466.055331678,extrapolado,formula (verificada en n menores)
